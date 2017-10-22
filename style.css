@@ -1,0 +1,83 @@
+/*Beginning stages of css stylesheet mirrioring vision board created*/
+
+
+body {
+	background-color: #C6BEBB;
+	margin: 0px;
+	font-family: Sans Serif ,serif;
+   	font-size: 20px;
+    width: 100%;
+	clear: both;
+	text-align: center;
+}
+header {
+	background-color:#114455;
+	height: 60px;
+	padding: 5px;
+    width: :9;
+    margin: 0 auto; 
+}
+header h3 {
+    color: azure;
+    font-family: Serif, Sans Serif ,Verdana ;
+	text-align: center;
+    font-size: 16px
+}
+.nav {
+	background-color:black;
+	margin: 0 auto;
+	line-height: 100%;
+	font-family: Sans Serif ,serif;
+	text-align: center;
+}	
+nav  ul {
+    list-style-type: none;
+	color: azure;
+    text-align: center;
+    font-family: sans-serif, serif;
+    height: 20px;
+	padding: 20px;
+    width: :9;
+    margin: 0 auto;   
+}
+ul {
+	background-color: #114455;
+	font-family: Sans Serif, Serif;
+	font-size: 14px;
+    font-family: Sans Serif ,serif;
+	text-align: center;
+    margin:0 auto;
+    width: :10;
+}
+.nav a {
+	text-decoration: none;
+	color: azure;
+	background-color: #114455;
+}
+
+
+.main {
+	background-color: #C6BEBB;
+	font-size:110%
+	margin: 10px;
+	border-radius: 5px;
+	padding: 20px 20px 20px 20px
+	font-size: 10%;
+    text-align: center;
+    font-family: sans-serif, serif;
+    
+}
+h1 {
+	background-color: #C6BEBB;
+    font-family:Sans Serif ,serif;
+	font-size: 30px; /*this is determined with a of base of 14px*/
+	width:100%;    
+	text-align: center;
+    text-decoration: underline;
+}			
+
+#h1,p {
+    font-size: 16px;
+    text-align: center;
+}
+/*need to fix this code for p in h1 */
