@@ -10,6 +10,7 @@ body {
 	clear: both;
 	text-align: center;
 }
+/*container has to have a # selector*/
 header {
 	background-color:#114455;
 	height: 60px;
@@ -76,7 +77,7 @@ h1 {
     text-decoration: underline;
 }			
 
-#h1,p {
+h1,p {
     font-size: 16px;
     text-align: center;
 }
