@@ -1,12 +1,14 @@
+/*Beginning of header section*/
 #header {
  background-color: darkgray;
  margin: 0;
  padding: 5px;
 }
-#body {
+/*Ending of heading section*/
+body {
     color: darkgray;
-    margin: 5%;
-    width: 110%;
+    margin: 0;
+    width: 100%;
     font-size: 20px;
 	clear: both;
 	text-align: center;
@@ -19,47 +21,55 @@
     text-align: center
 }
 .main {
-	margin: 0 0;
 	padding: 20px;
 }
-
-#nav {
-    text-align: center;
-    color: black;
-    overflow: hidden;
+/*nav section*/
+.navhorz {
+    background-color: darkgray;
+}
+.navhorz li{
     display: block;
-    list-style-type: none;
-}
-.nav a ul li {
-    list-style-type: none;
-    color: darkgrey;
-    display: inline-block;
-    padding: 10%;
+    padding: 12px;
+    font-size: 12px;
+    color: ghostwhite;
+    text-decoration: none;
     float: left;
-    text-align: center;
 }
-.nav  {
-    list-style-type: none;
-    display: blockn;
+.navhorz ul li {
     float: left;
-    text-align: center;
-    margin: 5px;
-    padding: 5px%;
-    width:100%;   
-
 }
+.navhorz ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navhorz ul li a {    
+    display: block;
+    padding: 12px;
+    font-size: 12px;
+    color: ghostwhite;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navhorz ul li a:hover {
+    background-color: sandybrown;
+    color:floralwhite;
+    /*end of nav section*/
+}
+/*Body and paragraph section*/
 #h1 {
 	font-family:Sans Serif ,serif;
 	font-size: 120%; /*this is determined with a of base of 14px*/
     text-decoration:underline;
     font-weight: bold;
 }			
-
 h1,p {
     font-size: 16px;
     text-align: center;
 }
-/*need to fix this code for p in h1 */
+/*End of Body and Paragpraph section*/
+/*List and upcoming events for paragrahs*/
 ul {
 	font-family: Sans Serif, Serif;
 	font-size: 14px;
@@ -68,3 +78,4 @@ ul {
     margin:0 auto;
     width: :10;
 }
+/*end of list and upcoming events for paragraph sectin*/
