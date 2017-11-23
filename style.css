@@ -10,15 +10,15 @@ body {
     margin: 0;
     width: 100%;
     font-size: 20px;
-	clear: both;
-	text-align: center;
+    clear: both;
+    text-align: center;
     font-family: sans-serif, serif; 
 }
 /*container has to have a # selector*/
 #wrapper {
 	background-color:chocolate;
 	padding: 20px;
-    text-align: center
+        text-align: center
 }
 .main {
 	padding: 20px;
@@ -55,14 +55,14 @@ body {
 .navhorz ul li a:hover {
     background-color: sandybrown;
     color:floralwhite;
-    /*end of nav section*/
+/*end of navaigation sect*/
 }
 /*Body and paragraph section*/
 #h1 {
-	font-family:Sans Serif ,serif;
-	font-size: 120%; /*this is determined with a of base of 14px*/
-    text-decoration:underline;
-    font-weight: bold;
+     font-family:Sans Serif ,serif;
+     font-size: 120%; /*this is determined with a of base of 14px*/
+     text-decoration:underline;
+     font-weight: bold;
 }			
 h1,p {
     font-size: 16px;
@@ -71,11 +71,11 @@ h1,p {
 /*End of Body and Paragpraph section*/
 /*List and upcoming events for paragrahs*/
 ul {
-	font-family: Sans Serif, Serif;
-	font-size: 14px;
-    font-family: Sans Serif ,serif;
-	text-align: center;
-    margin:0 auto;
-    width: :10;
+      font-family: Sans Serif, Serif;
+      font-size: 14px;
+      font-family: Sans Serif ,serif;
+      text-align: center;
+      margin:0 auto;
+      width: :10;
 }
 /*end of list and upcoming events for paragraph sectin*/
