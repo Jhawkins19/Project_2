@@ -11,12 +11,12 @@ body {
     font-family: 'Dosis', sans-serif;
     color: #ffffff;
 }
-#nav{
+nav{
     text-align: center;
     list-style-type: none;
     width: 100%;
-	margin: 0 0 3em 0;
-	padding: 10%;
+	margin: 0px;
+	padding: 0px;
     font-family: 'Dosis', sans-serif;
 }	
 nav ul {
@@ -42,7 +42,7 @@ nav ul li a {
     color: white;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 0px
     font-family: 'Dosis', sans-serif;
 }
 header{
